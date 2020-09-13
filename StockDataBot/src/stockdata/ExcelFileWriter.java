@@ -168,14 +168,14 @@ public class ExcelFileWriter {
         String activeTraderPro = "Fidelity Active Trader Pro";
         x.run("C:\\WINDOWS\\system32\\cmd.exe /c \"C:\\Users\\trevo\\AppData\\"
             + "Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Fidelity "
-            + "Investments\\Fidelity Active Trader Pro®.appref-ms\"");
+            + "Investments\\Fidelity Active Trader ProÂ®.appref-ms\"");
         
         x.winWaitActive(activeTraderPro);
         x.sleep(9000);
         
         //login details
         x.mouseClick("", 750, 450);
-        x.send("Wrestlingman23?");
+        x.send(""); //add password here
         x.mouseClick("", 700, 530);
         x.sleep(20000);
         
