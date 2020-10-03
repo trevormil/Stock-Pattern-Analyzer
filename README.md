@@ -1,2 +1,2 @@
 # stock-data-bot
-Creates a bot that can take in lots of data about stocks and display it in an easy to see GUI.
+This program uses AutoIt to manually import daily stock data from Fidelity Active Trader Pro. It then parses the .csv file followed by analyzing that data for patterns and insights to aid in daily trading use.
