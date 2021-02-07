@@ -1,5 +1,5 @@
 # stock-data-bot
-This program uses AutoIt to manually import daily stock data from Fidelity Active Trader Pro. 
+This program uses AutoIt to manually import daily stock data from Fidelity Active Trader Pro and analyzes it within Java. Finally, it exports all patterns and alysis into an Excel Spreadsheet. 
 
 Execution of the Program:
 
